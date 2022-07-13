@@ -1,0 +1,52 @@
+body {
+  background: black;
+  color: white;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+  color:darkred;
+}
+h2 {
+  font-size: 30px;
+  color:aqua;
+  font-weight: 900;
+}
+p {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: cursive;
+  padding: 10px;
+}
+.poke {
+  font-size: 20px;
+  background: orangered;
+  color: white;
+  padding: 6px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-left: 80%;
+  border: transparent;
+  cursor: pointer;
+}
+.poke:active{
+  background: orange;
+}
+.aspo {
+  border-bottom: 3px solid burlywood;
+}
+.aspo img {
+  width: 650px;
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.embe
+{
+  display: inline-block;
+  margin: 2rem;
+}
+.info{
+  font-size: 20px;
+  
+}
