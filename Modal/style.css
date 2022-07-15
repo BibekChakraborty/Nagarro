@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+.container {
+  margin: auto;
+  width: 600px;
+  padding: 3rem;
+  color: whitesmoke;
+  background: #011627;
+  font-family: cursive;
+  border-radius: 10px;
+  position: relative;
+  transition: all 100ms ease-in-out;
+}
+.fa-solid {
+  position: absolute;
+  top: 4%;
+  right: 3%;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+.btn-danger{
+  font-size: 2rem;
+}
+body {
+    background-image: url('https://cdn.wallpapersafari.com/59/46/bjQ0tO.png');
+  
+}
