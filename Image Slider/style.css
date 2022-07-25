@@ -18,7 +18,7 @@ h1 {
 }
 .container img {
   width: 800px;
-  padding: 5px;
+  padding: 10px;
   background: white;
   box-shadow: 0 0 2rem 0rem rgb(55, 2, 104);
   object-fit: cover;
