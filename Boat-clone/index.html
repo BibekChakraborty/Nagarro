@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boat_Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com" defer></script>
+  </head>
+  <body>
+    <div
+      class="bg-[#FF0000] text-white w-full text-[15px] tracking-normal p-[5px] font-normal"
+    >
+      <p>This Rakhi, celebrate your love-hate #BondWithboAt. Shop NOW!</p>
+    </div>
+    <nav>
+      <div class="mx-8 w-20 flex">
+        <img class="" src="./assets/boatlogo.png" alt="" />
+      </div>
+      <ul class="options">
+        <li class="cursor-pointer">
+          Shop <i class="fa-solid fa-caret-down"></i>
+        </li>
+        <li>
+          <a href="https://www.boat-lifestyle.com/collections/daily-deals-2"
+            >Daily Deal</a
+          >
+        </li>
+        <li>
+          <a href="https://www.boat-lifestyle.com/collections/offer-zone"
+            >OfferZone</a
+          >
+        </li>
+        <li class="cursor-pointer" id="more">
+          More <i class="fa-solid fa-caret-down"></i>
+          <ul
+            id="dropped"
+            class="absolute right-[34%] top-[97.2px] text-left bg-black p-8 hidden"
+          >
+            <li class="my-1">
+              <a href="https://www.boat-lifestyle.com/collections/gifting"
+                >Gifting</a
+              >
+            </li>
+            <li class="my-1">
+              <a
+                href="https://www.boat-lifestyle.com/pages/do-what-floatsyourboat"
+                >Do What Floats Your boAt</a
+              >
+            </li>
+            <li class="my-1">
+              <a href="https://www.boat-lifestyle.com/blogs/blog">Blogs</a>
+            </li>
+            <li class="my-1">
+              <a
+                href="https://www.boat-lifestyle.com/pages/boat-head-experience"
+                >Meet the boAtheads</a
+              >
+            </li>
+            <li class="my-1">
+              <a href="/pages/bulk-orders">Corporate Orders</a>
+            </li>
+            <li class="my-1">
+              <a
+                href="https://www.boat-lifestyle.com/pages/earn-rewards-referring-friends"
+                >Earn Rs.100</a
+              >
+            </li>
+            <li class="my-1">
+              <a href="mailto:Careers@imaginemarketingindia.com">Careers</a>
+            </li>
+            <li class="my-1">
+              <a
+                href="https://www.boat-lifestyle.com/pages/social-responsibility"
+                >Social Responsibility</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="searchgrp flex space-evenly gap-4 items-center mx-3">
+        <input
+          class="text-black"
+          type="search"
+          name="searchbar"
+          id="searchbar"
+          placeholder="Search..."
+        />
+        <i class="fa-solid fa-user text-xl"></i>
+        <a href="https://www.boat-lifestyle.com/products/gift-card"
+          ><i class="fa-solid fa-gift"></i
+        ></a>
+
+        <i class="fa-solid fa-cart-shopping text-xl"></i>
+      </div>
+    </nav>
+
+    <div class="slider flex">
+      <i id="prev" class="fa-solid fa-angle-left"></i>
+      <img src="./assets/imgsp2.gif" class="slide" />
+      <img src="./assets/img1.jpg" class="slide inactive" />
+      <img src="./assets/imgsp.png" class="slide inactive" />
+      <img src="./assets/img2.jpg" class="slide inactive" />
+      <img src="./assets/img3.jpg" class="slide inactive" />
+      <img src="./assets/img4.jpg" class="slide inactive" />
+      <img src="./assets/img5.png" class="slide inactive" />
+      <i id="next" class="fa-solid fa-angle-right"></i>
+    </div>
+
+    <h1 class="text-3xl font-bold mt-12 mb-8">
+      Biggest Launches. Dopest Launches 🚀
+    </h1>
+
+    <div class="containers flex justify-center align-center gap-3">
+      <div class="card w-[320px] bg-gray-300 text-black rounded-lg">
+        <a
+          href="https://www.boat-lifestyle.com/products/rockerz-330-anc-noise-cancelling-earphones"
+        >
+          <img
+            id="eph_1"
+            class="cursor-pointer w-[250px] m-auto"
+            src="./assets/eph1.png"
+            alt=""
+          />
+        </a>
+        <div class="bg-white mx-2 my-1 rounded-md text-left">
+          <h1 class="font-bold p-4">Rockerz 330 ANC</h1>
+          <hr />
+          <span class="text-[#FF0000] p-4 font-bold">&#8377; 1999</span>
+          <span class="font-semibold text-gray-600 line-through"
+            >&#8377; 5999</span
+          >
+          <p class="text-sm px-4 py-2">You save: &#8377; 4000 (67%)</p>
+          <div class="text-center">
+            <button
+              class="text-white font-bold bg-[#FF0000] w-[90%] p-2 rounded-lg my-2"
+            >
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card w-[320px] bg-gray-300 text-black rounded-lg">
+        <a href="https://www.boat-lifestyle.com/products/boat-airdopes-413-anc">
+          <img
+            id="eph_0"
+            class="cursor-pointer w-[250px] m-auto"
+            src="./assets/eph.png"
+            alt=""
+          />
+        </a>
+        <div class="bg-white mx-2 rounded-md text-left">
+          <h1 class="font-bold p-4">boAt Airdopes 413 ANC</h1>
+          <hr />
+          <span class="text-[#FF0000] p-4 font-bold">&#8377; 2499</span>
+          <span class="font-semibold text-gray-600 line-through"
+            >&#8377; 4990</span
+          >
+          <p class="text-sm px-4 py-2">You save: &#8377; 2491 (50%)</p>
+          <div class="text-center">
+            <button
+              class="text-white font-bold bg-[#FF0000] w-[90%] p-2 rounded-lg my-2"
+            >
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card w-[320px] bg-gray-300 text-black rounded-lg">
+        <a
+          href="https://www.boat-lifestyle.com/products/rockerz-333-anc-wireless-neckband-with-noise-cancelling-feature"
+        >
+          <img
+            id="eph_2"
+            class="cursor-pointer w-[250px] m-auto"
+            src="./assets/eph2.png"
+            alt=""
+          />
+        </a>
+        <div class="bg-white mx-2 rounded-md text-left">
+          <h1 class="font-bold p-4">Rockerz 333 ANC</h1>
+          <hr />
+          <span class="text-[#FF0000] p-4 font-bold">&#8377; 1999</span>
+          <span class="font-semibold text-gray-600 line-through"
+            >&#8377; 5999</span
+          >
+          <p class="text-sm px-4 py-2">You save: &#8377; 4000 (67%)</p>
+          <div class="text-center">
+            <button
+              class="text-white font-bold bg-[#FF0000] w-[90%] p-2 rounded-lg my-2"
+            >
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="card w-[320px] bg-gray-300 text-black rounded-lg">
+        <a
+          href="https://www.boat-lifestyle.com/products/boat-airdrops-121-pro-earbuds-with-easy-touch-control"
+        >
+          <img
+            id="eph_3"
+            class="cursor-pointer w-[250px] m-auto"
+            src="./assets/eph3.png"
+            alt=""
+          />
+        </a>
+        <div class="bg-white mx-2 rounded-md text-left">
+          <h1 class="font-bold p-4">boAt Airdopes 121 PRO</h1>
+          <hr />
+          <span class="text-[#FF0000] p-4 font-bold">&#8377; 1499</span>
+          <span class="font-semibold text-gray-600 line-through"
+            >&#8377; 2990</span
+          >
+          <p class="text-sm px-4 py-2">You save: &#8377; 2491 (50%)</p>
+          <div class="text-center">
+            <button
+              class="text-white font-bold bg-[#FF0000] w-[90%] p-2 rounded-lg my-2"
+            >
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="text-center font-bold my-8 text-3xl">Daily Deals</h1>
+    <div
+      id=""
+      class="bg-yellow-500 flex gap-2 justify-between text-black p-2 w-[30%] text-lg rounded-lg m-1"
+    >
+      <span class="font-semibold">
+        <i class="fa-solid fa-bolt text-gray-900"></i> DAILY DEALS</span
+      >
+      <span id="countdown"> </span>
+    </div>
+
+    <div class="flex align-center gap-2 justify-evenly my-12">
+      <div class="w-[70%] rounded-lg overflow-clip relative">
+        <video loop autoplay src="./assets/vid1.mp4"></video>
+        <img
+          class="absolute left-[39%] top-[67.5%] w-[45px] bg-white rounded-lg shadow-xl cursor-pointer"
+          src="./assets/1st.png"
+        />
+        <div class="bg-white text-black p-4 font-semibold">
+          <h1 class="font-bold mt-3">Rockerzz 330ANC</h1>
+          <p class="text-sm">Rockerzz wireless</p>
+          <p class="m-2 bg-black w-[100%] h-[1px]"></p>
+          <p class="text-[#ff0000] m-2 text-sm">New Arrival</p>
+          <span class="text-[#ff0000] m-2 text-lg">&#8377; 1798</span>
+          <span class="text-gray-600 line-through text-lg font-normal m-1"
+            >&#8377; 5999</span
+          >
+        </div>
+      </div>
+      <div class="w-[70%] rounded-lg overflow-clip relative">
+        <video loop autoplay src="./assets/vid6.mp4"></video>
+        <img
+          class="absolute left-[39%] top-[67.5%] w-[45px] bg-white rounded-lg shadow-xl cursor-pointer"
+          src="./assets/2nd.png"
+        />
+        <div class="bg-white text-black p-4 font-semibold">
+          <h1 class="font-bold mt-3">boAt Storm Pro</h1>
+          <p class="text-sm">Smart watches</p>
+          <p class="m-2 bg-black w-[100%] h-[1px]"></p>
+          <p class="text-[#ff0000] m-2 text-sm">New Arrival</p>
+          <span class="text-[#ff0000] m-2 text-lg">&#8377; 3999</span>
+          <span class="text-gray-600 line-through text-lg font-normal m-1"
+            >&#8377; 6990</span
+          >
+        </div>
+      </div>
+      <div class="w-[70%] rounded-lg overflow-clip relative">
+        <video loop autoplay src="./assets/vid2.mp4"></video>
+        <img
+          class="absolute left-[39%] top-[67.5%] w-[45px] bg-white rounded-lg shadow-xl cursor-pointer"
+          src="./assets/3rd.png"
+        />
+        <div class="bg-white text-black p-4 font-semibold">
+          <h1 class="font-bold mt-3">boAt Airdopes 413 ANC</h1>
+          <p class="text-sm">Airdopes TWS</p>
+          <p class="m-2 bg-black w-[100%] h-[1px]"></p>
+          <p class="text-[#ff0000] m-2 text-sm">New Arrival</p>
+          <span class="text-[#ff0000] m-2 text-lg">&#8377; 2298</span>
+          <span class="text-gray-600 line-through text-lg font-normal m-1"
+            >&#8377; 4990</span
+          >
+        </div>
+      </div>
+
+      <div class="w-[70%] rounded-lg overflow-clip relative">
+        <video loop autoplay src="./assets/vid4.mp4"></video>
+        <img
+          class="absolute left-[39%] top-[67.5%] w-[45px] bg-white rounded-lg shadow-xl cursor-pointer"
+          src="./assets/4th.png"
+        />
+        <div class="bg-white text-black p-4 font-semibold">
+          <h1 class="font-bold mt-3">boAt 121 Airdopes PRO</h1>
+          <p class="text-sm">Airdopes TWS</p>
+          <p class="m-2 bg-black w-[100%] h-[1px]"></p>
+          <p class="text-[#ff0000] m-2 text-sm">New Arrival</p>
+          <span class="text-[#ff0000] m-2 text-lg">&#8377; 1298</span>
+          <span class="text-gray-600 line-through text-lg font-normal m-1"
+            >&#8377; 2990</span
+          >
+        </div>
+      </div>
+      <div class="w-[70%] rounded-lg overflow-clip relative">
+        <video loop autoplay src="./assets/vid5.mp4"></video>
+        <div class="bg-white text-black p-4 font-semibold">
+          <img
+            class="absolute left-[39%] top-[67.5%] w-[45px] bg-white rounded-lg shadow-xl cursor-pointer"
+            src="./assets/5th.png"
+          />
+          <h1 class="font-bold mt-3">boAt Waveselect</h1>
+          <p class="text-sm">Smartwatches</p>
+          <p class="m-2 bg-black w-[100%] h-[1px]"></p>
+          <p class="text-[#ff0000] m-2 text-sm">New Arrival</p>
+          <span class="text-[#ff0000] m-2 text-lg">&#8377; 2999</span>
+          <span class="text-gray-600 line-through text-lg font-normal m-1"
+            >&#8377; 6990</span
+          >
+        </div>
+      </div>
+
+      <div class="w-[70%] rounded-lg overflow-clip relative">
+        <video loop autoplay src="./assets/vid3.mp4"></video>
+        <img
+          class="absolute left-[39%] top-[67.5%] w-[45px] bg-white rounded-lg shadow-xl cursor-pointer"
+          src="./assets/6th.png"
+        />
+        <div class="bg-white text-black p-4 font-semibold">
+          <h1 class="font-bold mt-3">boAt Airdopes 141</h1>
+          <p class="text-sm">Airdopes TWS</p>
+          <p class="m-2 bg-black w-[100%] h-[1px]"></p>
+          <p class="text-[#ff0000] m-2 text-sm">New Arrival</p>
+          <span class="text-[#ff0000] m-2 text-lg">&#8377; 1198</span>
+          <span class="text-gray-600 line-through text-lg font-normal m-1"
+            >&#8377; 4490</span
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="my-4 bg-black py-8 w-full">
+      <h4 class="text-center text-2xl font-bold">
+        Don’t think. Get them their gift before they start complaining.
+      </h4>
+      <div class="m-auto w-2/4">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Rakshabandhan_KV-4.png?v=1659599568"
+        />
+      </div>
+    </div>
+
+    <div class="w-full p-3 font-thin text-center text-sm">
+      <p class="w-auto">
+        India's fastest growing audio &amp; wearables brand. The most incredible
+        range of
+        <a
+          href="https://www.boat-lifestyle.com/collections/bluetooth-wireless-headphones"
+          >wireless earphones</a
+        >
+        ,
+        <a
+          href="https://www.boat-lifestyle.com/collections/true-wireless-earbuds"
+          >earbuds</a
+        >
+        ,
+        <a href="https://www.boat-lifestyle.com/collections/wired-headphones"
+          >headphones</a
+        >
+        ,
+        <a href="https://www.boat-lifestyle.com/collections/smart-watches"
+          >smart watches</a
+        >
+        , and
+        <a href="https://www.boat-lifestyle.com/collections/home-audio"
+          >home audio</a
+        >.
+        <br />
+        From workouts to adventures, boAt will get you sailing!
+      </p>
+    </div>
+
+    <div class="bg-black h-[50%] p-4 font-thin w-full">
+      © 2022 Bibek Chakraborty. All Rights Reserved
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/97cafe4b3f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" defer></script>
+  </body>
+</html>

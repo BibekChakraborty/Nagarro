@@ -42,6 +42,7 @@ const numbers = [
   document.getElementById("7"),
   document.getElementById("8"),
   document.getElementById("9"),
+  document.getElementById("."),
 ];
 numbers.forEach((btn) =>
   btn.addEventListener("click", () => (input.innerText += btn.id))
@@ -87,4 +88,5 @@ document.addEventListener('keydown',(e)=>{
      remove();
   else if(e.key==='Escape')
      removeall();
+
 })
