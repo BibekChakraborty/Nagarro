@@ -32,7 +32,7 @@ function currentslide(n) {
 
 setInterval(() => {
   currentslide(index + 1);
-}, 4500);
+}, 3000);
 
 //hovereffect
 const img0 = document.getElementById("eph_0");
@@ -74,7 +74,7 @@ let deadline = new Date("Aug 25, 2022 18:30:00").getTime();
 function updateCountdown() {
   let now = Date.now();
   var diff = deadline - now;
-  let ms =( diff % 1000 )%10;
+  let ms = (diff % 1000) % 10;
   let s = Math.floor((diff / 1000) % 60);
   let m = Math.floor((diff / 60000) % 60);
   let h = Math.floor((diff / 3600000) % 24);
@@ -89,4 +89,5 @@ function updateCountdown() {
     ).innerHTML = `Ending in: ${d}d  ${h}h  ${m}m  ${s}s  <span class="inline-block w-[35px] bg-white p-1 text-sm font-semibold">${ms}</span>`;
   }
 }
-setInterval(updateCountdown,1);
+setInterval(updateCountdown, 1);
+

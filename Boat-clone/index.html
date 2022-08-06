@@ -4,11 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Boat_Clone</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+    <title>boAt_Clone</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="https://cdn.tailwindcss.com" defer></script>
+    <script src="https://cdn.tailwindcss.com" ></script>
   </head>
-  <body>
+  <body >
     <div
       class="bg-[#FF0000] text-white w-full text-[15px] tracking-normal p-[5px] font-normal"
     >
@@ -16,23 +19,23 @@
     </div>
     <nav>
       <div class="mx-8 w-20 flex">
-        <img class="" src="./assets/boatlogo.png" alt="" />
+        <img class="" src="./assets/logo-dark.png" alt="" />
       </div>
       <ul class="options">
-        <li class="cursor-pointer">
+        <li class="cursor-pointer hover:underline">
           Shop <i class="fa-solid fa-caret-down"></i>
         </li>
-        <li>
+        <li class="hover:underline">
           <a href="https://www.boat-lifestyle.com/collections/daily-deals-2"
             >Daily Deal</a
           >
         </li>
-        <li>
+        <li class="hover:underline">
           <a href="https://www.boat-lifestyle.com/collections/offer-zone"
             >OfferZone</a
           >
         </li>
-        <li class="cursor-pointer" id="more">
+        <li class="cursor-pointer hover:underline" id="more">
           More <i class="fa-solid fa-caret-down"></i>
           <ul
             id="dropped"
@@ -115,14 +118,10 @@
     <div class="containers flex justify-center align-center gap-3">
       <div class="card w-[320px] bg-gray-300 text-black rounded-lg">
         <a
+          class="cursor-pointer w-[250px] m-auto"
           href="https://www.boat-lifestyle.com/products/rockerz-330-anc-noise-cancelling-earphones"
         >
-          <img
-            id="eph_1"
-            class="cursor-pointer w-[250px] m-auto"
-            src="./assets/eph1.png"
-            alt=""
-          />
+          <img id="eph_1" src="./assets/eph1.png" alt="" />
         </a>
         <div class="bg-white mx-2 my-1 rounded-md text-left">
           <h1 class="font-bold p-4">Rockerz 330 ANC</h1>
@@ -142,13 +141,11 @@
         </div>
       </div>
       <div class="card w-[320px] bg-gray-300 text-black rounded-lg">
-        <a href="https://www.boat-lifestyle.com/products/boat-airdopes-413-anc">
-          <img
-            id="eph_0"
-            class="cursor-pointer w-[250px] m-auto"
-            src="./assets/eph.png"
-            alt=""
-          />
+        <a
+          href="https://www.boat-lifestyle.com/products/boat-airdopes-413-anc"
+          class="cursor-pointer w-[250px] m-auto"
+        >
+          <img id="eph_0" src="./assets/eph.png" alt="" />
         </a>
         <div class="bg-white mx-2 rounded-md text-left">
           <h1 class="font-bold p-4">boAt Airdopes 413 ANC</h1>
@@ -169,14 +166,10 @@
       </div>
       <div class="card w-[320px] bg-gray-300 text-black rounded-lg">
         <a
+          class="cursor-pointer w-[250px] m-auto"
           href="https://www.boat-lifestyle.com/products/rockerz-333-anc-wireless-neckband-with-noise-cancelling-feature"
         >
-          <img
-            id="eph_2"
-            class="cursor-pointer w-[250px] m-auto"
-            src="./assets/eph2.png"
-            alt=""
-          />
+          <img id="eph_2" src="./assets/eph2.png" alt="" />
         </a>
         <div class="bg-white mx-2 rounded-md text-left">
           <h1 class="font-bold p-4">Rockerz 333 ANC</h1>
@@ -197,14 +190,10 @@
       </div>
       <div class="card w-[320px] bg-gray-300 text-black rounded-lg">
         <a
+          class="cursor-pointer w-[250px] m-auto"
           href="https://www.boat-lifestyle.com/products/boat-airdrops-121-pro-earbuds-with-easy-touch-control"
         >
-          <img
-            id="eph_3"
-            class="cursor-pointer w-[250px] m-auto"
-            src="./assets/eph3.png"
-            alt=""
-          />
+          <img id="eph_3" src="./assets/eph3.png" alt="" />
         </a>
         <div class="bg-white mx-2 rounded-md text-left">
           <h1 class="font-bold p-4">boAt Airdopes 121 PRO</h1>
@@ -238,7 +227,7 @@
 
     <div class="flex align-center gap-2 justify-evenly my-12">
       <div class="w-[70%] rounded-lg overflow-clip relative">
-        <video loop autoplay src="./assets/vid1.mp4"></video>
+        <video class="videos" muted loop autoplay src="./assets/vid1.mp4"></video>
         <img
           class="absolute left-[39%] top-[67.5%] w-[45px] bg-white rounded-lg shadow-xl cursor-pointer"
           src="./assets/1st.png"
@@ -255,7 +244,7 @@
         </div>
       </div>
       <div class="w-[70%] rounded-lg overflow-clip relative">
-        <video loop autoplay src="./assets/vid6.mp4"></video>
+        <video class="videos" muted loop autoplay src="./assets/vid6.mp4"></video>
         <img
           class="absolute left-[39%] top-[67.5%] w-[45px] bg-white rounded-lg shadow-xl cursor-pointer"
           src="./assets/2nd.png"
@@ -272,7 +261,7 @@
         </div>
       </div>
       <div class="w-[70%] rounded-lg overflow-clip relative">
-        <video loop autoplay src="./assets/vid2.mp4"></video>
+        <video class="videos" muted loop autoplay src="./assets/vid2.mp4"></video>
         <img
           class="absolute left-[39%] top-[67.5%] w-[45px] bg-white rounded-lg shadow-xl cursor-pointer"
           src="./assets/3rd.png"
@@ -290,7 +279,7 @@
       </div>
 
       <div class="w-[70%] rounded-lg overflow-clip relative">
-        <video loop autoplay src="./assets/vid4.mp4"></video>
+        <video class="videos" muted loop autoplay src="./assets/vid4.mp4"></video>
         <img
           class="absolute left-[39%] top-[67.5%] w-[45px] bg-white rounded-lg shadow-xl cursor-pointer"
           src="./assets/4th.png"
@@ -307,7 +296,7 @@
         </div>
       </div>
       <div class="w-[70%] rounded-lg overflow-clip relative">
-        <video loop autoplay src="./assets/vid5.mp4"></video>
+        <video class="videos" muted loop autoplay src="./assets/vid5.mp4"></video>
         <div class="bg-white text-black p-4 font-semibold">
           <img
             class="absolute left-[39%] top-[67.5%] w-[45px] bg-white rounded-lg shadow-xl cursor-pointer"
@@ -325,7 +314,7 @@
       </div>
 
       <div class="w-[70%] rounded-lg overflow-clip relative">
-        <video loop autoplay src="./assets/vid3.mp4"></video>
+        <video class="videos" muted loop autoplay src="./assets/vid3.mp4"></video>
         <img
           class="absolute left-[39%] top-[67.5%] w-[45px] bg-white rounded-lg shadow-xl cursor-pointer"
           src="./assets/6th.png"
@@ -392,6 +381,7 @@
       src="https://kit.fontawesome.com/97cafe4b3f.js"
       crossorigin="anonymous"
     ></script>
-    <script src="index.js" defer></script>
+
+    <script src="index.js"></script>
   </body>
 </html>
