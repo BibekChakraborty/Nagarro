@@ -89,5 +89,5 @@ function updateCountdown() {
     ).innerHTML = `Ending in: ${d}d  ${h}h  ${m}m  ${s}s  <span class="inline-block w-[35px] bg-white p-1 text-sm font-semibold">${ms}</span>`;
   }
 }
-setInterval(updateCountdown, 1);
+setInterval(updateCountdown, 100);
 
