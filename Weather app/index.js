@@ -11,7 +11,7 @@ searchbtn.addEventListener("click", () => {
 const search = (city) => {
   
   fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${key}`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${key}`
   )
     .then((response) => response.json())
     .then((data) => {
