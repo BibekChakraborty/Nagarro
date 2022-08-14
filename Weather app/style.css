@@ -1,0 +1,13 @@
+#input{
+    border-radius: 20px 0 0 20px;
+}
+#search{
+    border-radius: 0 20px 20px 0;
+    background:rgb(226, 104, 11);
+}
+#search:hover{
+    background: orangered;
+}
+#search:active{
+    background: orange;
+}
