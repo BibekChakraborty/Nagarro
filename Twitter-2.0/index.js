@@ -21,14 +21,13 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-
 initializePassport(passport);
 
-app.use('/auth', require('./routes/auth'));
-app.use('/tweet', require('./routes/tweet'));
-app.use('/profile', require("./routes/profile"));
+app.use("/auth", require("./routes/auth"));
+app.use("/tweet", require("./routes/tweet"));
+app.use("/profile", require("./routes/profile"));
 app.use("/", require("./routes"));
 
-app.listen(process.env.PORT, () =>
-  console.log(`Server is running on port ${process.env.PORT}`)
+app.listen(process.env.PORT || 5000, () =>
+  console.log(`Server is running on port ${process.env.PORT || 5000}`)
 );

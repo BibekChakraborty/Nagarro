@@ -12,12 +12,10 @@ module.exports = function (passport) {
         attributes: ["*"],
       })
         .then((result) => {
-          // console.log(result);
           const users = result.data;
           if (users.length === 0) {
             return done(null, false, { message: "No user found" });
-          }
-          else{
+          } else {
             const foundUser = users[0];
             bcrypt.compare(password, foundUser.password, (err, isMatch) => {
               if (err) throw err;
@@ -26,7 +24,7 @@ module.exports = function (passport) {
               } else {
                 return done(null, false, { message: "Password incorrect" });
               }
-            })
+            });
           }
         })
         .catch((err) => {
@@ -44,7 +42,6 @@ module.exports = function (passport) {
         callbackURL: `${process.env.BASE_URL}/auth/google/callback`,
       },
       function (accessToken, refreshToken, profile, cb) {
-        // console.log(profile);
         db.searchByValue({
           table: "user",
           searchAttribute: "email",
@@ -53,7 +50,7 @@ module.exports = function (passport) {
         })
           .then((result) => {
             const userData = result.data;
-            // console.log(userData[0]);
+
             if (userData.length > 0) {
               return cb(null, { id: userData[0].id });
             } else {
@@ -70,7 +67,6 @@ module.exports = function (passport) {
                 ],
               })
                 .then((result) => {
-                  // console.log(result.data.inserted_hashes[0]);
                   return cb(null, { id: result.data.inserted_hashes[0] });
                 })
                 .catch((err) => {
@@ -88,12 +84,10 @@ module.exports = function (passport) {
   );
 
   passport.serializeUser(function (user, done) {
-    // console.log("serializeUser");
     done(null, user.id);
   });
 
   passport.deserializeUser(function (id, done) {
-    // console.log("deserializeUser");
     db.searchByHash(
       {
         table: "user",
