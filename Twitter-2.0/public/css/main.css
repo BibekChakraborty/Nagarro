@@ -79,7 +79,7 @@ ul {
 }
 
 .nav-links li:hover {
-    background-color: rgba(151, 151, 151, 0.25);
+  background-color: rgba(151, 151, 151, 0.25);
 }
 
 .main {
@@ -340,11 +340,11 @@ textarea::placeholder {
   margin: 3rem auto 0;
 }
 
-.no-result{
-    margin: 3rem auto 0;
-    color: var(--secondary-text);
-    font-size: 1rem;
-    text-align: center;
+.no-result {
+  margin: 3rem auto 0;
+  color: var(--secondary-text);
+  font-size: 1rem;
+  text-align: center;
 }
 
 @keyframes spin {
@@ -408,4 +408,23 @@ textarea::placeholder {
   cursor: pointer;
   font-size: 1rem;
   font-weight: 600;
+}
+.log-out {
+  background: rgb(50, 50, 255);
+  margin-top: 2px;
+
+  width: 65%;
+}
+.log-out span,
+.fa-power-off {
+  color: white;
+  font-weight: 500;
+  padding-inline: 2px;
+}
+.log-out:hover {
+  scale: 1.1;
+  background: rgb(50, 50, 255);
+}
+.log-out:active {
+  background: rgb(50, 50, 255);
 }
