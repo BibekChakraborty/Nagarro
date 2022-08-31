@@ -424,6 +424,7 @@ textarea::placeholder {
 .log-out:hover {
   scale: 1.1;
   background: rgb(50, 50, 255);
+  color: black;
 }
 .log-out:active {
   background: rgb(50, 50, 255);
