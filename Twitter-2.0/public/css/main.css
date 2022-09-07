@@ -410,7 +410,7 @@ textarea::placeholder {
   font-weight: 600;
 }
 .log-out {
-  background: rgb(50, 50, 255);
+  background: #1d9bf0;
   margin-top: 2px;
 
   width: 65%;
@@ -423,7 +423,7 @@ textarea::placeholder {
 }
 .log-out:hover {
   scale: 1.1;
-  background: rgb(50, 50, 255);
+  background: #1d9bf0;
   color: black;
 }
 .log-out:active {

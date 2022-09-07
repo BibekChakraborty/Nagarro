@@ -316,3 +316,10 @@ footer span {
 .btn-apple{
   border: 1px solid black
 }
+.modal-body{
+  color: black;
+}
+.login-btn{
+  background: #1d9bf0;
+  color: white;
+}
